@@ -1,0 +1,121 @@
+.circle {
+  animation-name: circle-to-square;
+  animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;   
+  }
+  @keyframes --- {
+    0% { left: 0%; }
+    100%{left: 100%;}
+  }
+
+#circle {
+  width: 80px;
+  height: 80px;
+  background: #7fee1d;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+    position: absolute;
+    animation-name: box1;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(125,250,79,1) 35%, rgba(0,212,255,1) 100%); 
+}
+@keyframes box1 {
+  0% { left: 10%; }
+  100%{left: 80%;}
+}
+
+#circle2 {
+  width: 80px;
+  height: 80px;
+  background: #fd1f02;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  position: absolute;
+  animation-name: box2;
+  animation-duration: 3.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(222,79,250,1) 35%, rgba(0,212,255,1) 100%); 
+}
+@keyframes box2 {
+0% { top: 10%; }
+100%{top: 90%;}
+}
+
+#circle3 {
+  width: 80px;
+  height: 80px;
+  background: #02b6fd;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  position: absolute;
+  top: 200px;
+  animation-name: box3;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(201,40,40,1) 35%, rgba(0,212,255,1) 100%); 
+}
+@keyframes box3 {
+0% { left: 10%; }
+100%{left: 80%;}
+}
+
+#circle4 {
+  width: 80px;
+  height: 80px;
+  background: #fd02fd;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  position: absolute;
+  top: 650px;
+  animation-name: box4;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,154,17,1) 35%, rgba(0,212,255,1) 100%);
+}
+@keyframes box4 {
+0% { left: 10%; }
+100%{left: 80%;}
+}
+
+#circle5 {
+  width: 80px;
+  height: 80px;
+  background: #ecfd02;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  position: absolute;
+  left: 90%;
+  animation-name: box5;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction:alternate; 
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+@keyframes box5 {
+0% { top: 10%; }
+100%{top: 90%;}
+}
+
+
